@@ -5,7 +5,7 @@ var app = require('../app');
 describe('State Server Tests', function () {
     //Test Washington, Kansas,  Florida
 
-    describe('#POST /checkingAccount', function () {
+    describe('#POST /', function () {
         it('should fail because params are not given', function (done) {
             request(app)
                 .post('/')
